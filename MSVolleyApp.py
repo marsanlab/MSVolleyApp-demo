@@ -18,7 +18,7 @@ st.set_page_config(
 
 
 # read player data from a json file
-@st.cache()
+#@st.cache()
 def load_player_data():
     with open('./player_data.json') as rjson:
         pdjson= json.load(rjson)
